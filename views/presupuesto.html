@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <script src="/js/scripts.js" defer></script>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>TechNova Solutions S.L.</h1>
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="/index.html">Inicio</a></li>
+                <a href="/views/galeria.html">Galería</a></li>
+                <a href="/views/presupuesto.html" class="active">Presupuesto</a></li>
+                <a href="/views/contacto.html">Contacto</a></li>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Sección de formulario -->
+        <section id="presupuesto">
+            <h2 class="titulo2">Formulario de Solicitud:</h2>
+            <form id="formPresupuesto">
+                <!-- Parte 1: Datos de contacto -->
+                <fieldset>
+                    <legend>Datos de Contacto</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" maxlength="15" required>
+                    <small class="error" id="errorNombre"></small>
+        
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" maxlength="40" required>
+                    <small class="error" id="errorApellidos"></small>
+        
+                    <label for="telefono">Teléfono:</label>
+                    <input type="text" id="telefono" name="telefono" maxlength="9" required>
+                    <small class="error" id="errorTelefono"></small>
+        
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    <small class="error" id="errorEmail"></small>
+                </fieldset>
+        
+                <!-- Parte 2: Selección de presupuesto -->
+                <fieldset>
+                    <legend>Opciones de Presupuesto</legend>
+        
+                    <!-- Selección de producto -->
+                    <label for="producto">Producto:</label>
+                    <select id="producto" name="producto" required>
+                        <option value="">Seleccione un producto</option>
+                        <option value="100">Desarrollo web /100€</option>
+                        <option value="200">Diseño web /200€</option>
+                        <option value="300">Mantenimiento /300€</option>
+                    </select>
+                    <small class="error" id="errorProducto"></small>
+        
+                    <!-- Selección de plazo -->
+                    <label for="plazo">Plazo de entrega (meses):</label>
+                    <input type="number" id="plazo" name="plazo" min="1" max="24" value="1" required>
+        
+                    <!-- Selección de extras -->
+                    <label>Extras:</label>
+                    <div>
+                        <input type="checkbox" id="extra1" name="extras" value="50">
+                        <label for="extra1">SEO (+50€)</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="extra1" name="extras" value="30">
+                        <label for="extra2">Configuración (+30€)</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="extra1" name="extras" value="20">
+                        <label for="extra3">Soporte técnico (+20€)</label>
+                    </div>
+                </fieldset>
+        
+                <!-- Mostrar presupuesto -->
+                <div id="presupuestoFinal">
+                    <h3>Presupuesto Total: <span id="total">0€</span></h3>
+                </div>
+        
+                <!-- Parte 3: Condiciones y envío -->
+                <fieldset>
+                    <legend>Condiciones</legend>
+                    <div>
+                        <input type="checkbox" id="condiciones" required>
+                        <label for="condiciones">Acepto las condiciones de privacidad.</label>
+                    </div>
+                    <button type="submit" id="enviar" disabled>Enviar Presupuesto</button>
+                    <button type="reset">Restablecer</button>
+                </fieldset>
+            </form>
+        </section>
+             
+    </main>
+    <footer>
+        <p>&copy; 2024 TechNova Solutions S.L. <br> Todos los derechos reservados. <br>Dirección: Calle Ficticia, 123, 28000 Madrid, España.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                <img src="/images/png/Facebook.png" alt="Facebook" />
+            </a>
+            <a href="https://twitter.com" target="_blank" aria-label="X (Twitter)">
+                <img src="/images/png/X.png" alt="X (Twitter)" />
+            </a>
+            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                <img src="/images/png/Instagram_icon.png.webp" alt="Instagram" />
+            </a>
+        </div>
+    </footer>
+    <script src="/js/scripts.js"></script>
+</body>
+</html>

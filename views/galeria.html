@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+
+
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>TechNova Solutions S.L.</h1>
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="/index.html">Inicio</a></li>
+                <a href="/views/galeria.html" class="active">Galería</a></li>
+                <a href="/views/presupuesto.html">Presupuesto</a></li>
+                <a href="/views/contacto.html">Contacto</a></li>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Sección de galería -->
+        <section>
+            <h2 class="titulo">Nuestra Galería:</h2>
+            <div class="app"></div>
+            <article class="card">
+                <img src="/images/chairs-2181960_1280.jpg" alt="img1" class="card-img" onclick="openModal('/images/chairs-2181960_1280.jpg')">
+                <img src="/images/desk-593327_1280.jpg" alt="img2" class="card-img" onclick="openModal('/images/desk-593327_1280.jpg')">
+                <img src="/images/teamwork-3213924_1280.jpg" alt="img3" class="card-img" onclick="openModal('/images/desk-593327_1280.jpg')">
+                <img src="/images/woman-4702060_1280.jpg" alt="img4" class="card-img" onclick="openModal('/images/woman-4702060_1280.jpg')">
+                <img src="/images/office-620822_1280.jpg" alt="img5" class="card-img" onclick="openModal('/images/office-620822_1280.jpg')">
+                <img src="/images/telework-6795505_1280.jpg" alt="img6" class="card-img" onclick="openModal('/images/telework-6795505_1280.jpg')">
+            </article>
+        </section>
+    <div id="windows" class="window-modal hidden">
+    <span class="btn" onclick="closeModal()">Cerrar</span>
+    <div class="modal-content">
+        <button class="btn" id="prevBtn" onclick="changeImage(-1)">Anterior</button>
+        <img id="windowImg" class="window-img" src="" alt="Imagen ampliada">
+        <button class="btn" id="nextBtn" onclick="changeImage(1)">Siguiente</button>
+    </div>
+</div>
+    </main>
+    <footer>
+        <p>&copy; 2024 TechNova Solutions S.L. <br> Todos los derechos reservados. <br>Dirección: Calle Ficticia, 123, 28000 Madrid, España.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                <img src="/images/png/Facebook.png" alt="Facebook" />
+            </a>
+            <a href="https://twitter.com" target="_blank" aria-label="X (Twitter)">
+                <img src="/images/png/X.png" alt="X (Twitter)" />
+            </a>
+            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                <img src="/images/png/Instagram_icon.png.webp" alt="Instagram" />
+            </a>
+        </div>
+    </footer>
+
+    <script src="/js/scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Lanzamiento de la nueva tecnología de IA",
+        "description": "La empresa TechNova ha lanzado una nueva tecnología de inteligencia artificial que promete revolucionar el sector.",
+        "url": "https://www.technova.com/nueva-tecnologia-ia",
+        "image": "https://via.placeholder.com/300x150"
+    },
+    {
+        "title": "TechNova se expande a nuevos mercados",
+        "description": "TechNova Solutions S.L. ha anunciado su expansión a mercados internacionales, comenzando por América Latina.",
+        "url": "https://www.technova.com/expansion-mercados",
+        "image": "https://via.placeholder.com/300x150"
+    },
+    {
+        "title": "Nuevos empleados en TechNova",
+        "description": "TechNova Solutions S.L. ha anunciado la incorporación de nuevos empleados en su equipo de desarrollo.",
+        "url": "https://www.technova.com/nuevos-empleados",
+        "image": "https://via.placeholder.com/300x150"
+    },
+    {
+        "title": "TechNova gana premio a la innovación",
+        "description": "TechNova Solutions S.L. ha sido galardonada con el premio a la innovación en la categoría de tecnología.",
+        "url": "https://www.technova.com/premio-innovacion",
+        "image": "https://via.placeholder.com/300x150"
+    },
+    {
+        "title": "TechNova celebra su aniversario",
+        "description": "TechNova Solutions S.L. celebra su aniversario número 10 con una serie de eventos y actividades.",
+        "url": "https://www.technova.com/aniversario",
+        "image": "https://via.placeholder.com/300x150"
+    },
+    {
+        "title": "TechNova lanza nueva plataforma de aprendizaje",
+        "description": "La empresa TechNova ha lanzado una nueva plataforma de aprendizaje en línea que ofrece cursos y tutoriales para desarrolladores.",
+        "url": "https://www.technova.com/nueva-plataforma-aprendizaje",
+        "image": "https://via.placeholder.com/300x150"
+    }
+]

@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url(/images/empresa.jpg);
+    background-image: url(../images/empresa.jpg);
     background-size: cover;
     background-attachment: fixed;
     

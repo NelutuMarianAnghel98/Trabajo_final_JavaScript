@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 async function loadNews() {
     try {
         // Cargar las noticias desde el archivo JSON externo
-        const response = await fetch("../noticias.json");
+        const response = await fetch("../json/noticias.json");
         if (!response.ok) {
             throw new Error('Error al cargar las noticias');
         }

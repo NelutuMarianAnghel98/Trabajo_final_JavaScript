@@ -7,22 +7,8 @@
     box-sizing: border-box;
 }
 h1{
-    font-size: 5vw; /* Ajusta el tamaño del título según el ancho de la pantalla */
+    font-size: 5vh;
     box-sizing: border-box;
-}
-
-/* Media query para pantallas más pequeñas */
-@media (max-width: 600px) {
-    h1 {
-        font-size: 6vw; /* Ajusta el tamaño del título para pantallas pequeñas */
-    }
-}
-
-/* Media query para pantallas más grandes */
-@media (min-width: 1200px) {
-    h1 {
-        font-size: 3vw; /* Ajusta el tamaño del título para pantallas grandes */
-    }
 }
 
 body {
@@ -386,12 +372,24 @@ footer {
 /*************************************************************************************************************************************************************************
 ************************************************************************ MEDIA QUERY *************************************************************************************
 *************************************************************************************************************************************************************************/
-@media (max-width: 768px) {
-    footer {
-        padding: 0.5rem; /* Ajusta el padding para pantallas más pequeñas */
+h1 {
+    font-size: 5vw; /* Ajusta el tamaño del título según el ancho de la pantalla */
+    box-sizing: border-box;
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 6vw; /* Ajusta el tamaño del título para pantallas pequeñas */
     }
 }
 
+/* Media query para pantallas más grandes */
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 3vw; /* Ajusta el tamaño del título para pantallas grandes */
+    }
+}
 /*************************************************************************************************************************************************************************
 ************************************************************************ LOCALIZACÍON DE LA PÁGINA *************************************************************************
 *************************************************************************************************************************************************************************/

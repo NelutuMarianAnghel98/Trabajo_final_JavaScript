@@ -340,6 +340,7 @@ footer {
     left: 0;
     right: 0;
     box-sizing: border-box;
+    display: block;
   }
 
 .social-media {

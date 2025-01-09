@@ -6,6 +6,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1{
+    font-size: 30px;
+    box-sizing:  border-box;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -100,7 +104,7 @@ header {
     font-weight: bold;
     text-decoration: underline;
     text-shadow: 3px 2px 5px rgb(0, 140, 255);
-    color: rgb(0, 0, 0);
+    color: black;
 }
 
 .app {
@@ -332,13 +336,16 @@ main {
 *********************************************************************************** FOOTER *******************************************************************************
 *************************************************************************************************************************************************************************/
 footer {
-    background: #4e93dd;
+    width: 100vw; /* Ajusta el ancho del footer al ancho de la pantalla */
+    margin-left: calc(50% - 50vw); /* Ajusta la posición del footer para que se vea centrado */
+    background-color: #4e93dd;
     color: #fff;
     text-align: center;
     padding: 1rem;
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: 40px;
+    position: relative; /* Agrega esta propiedad para que el footer se posicione correctamente */
+    z-index: 1000; /* Agrega esta propiedad para que el footer se vea encima de otros elementos */
 }
 
 .social-media {
@@ -368,14 +375,7 @@ footer {
 *************************************************************************************************************************************************************************/
 @media (max-width: 768px) {
     footer {
-        padding: 15px;
-    }
-}
-
-@media (max-width: 480px) {
-    footer {
-        padding: 10px;
-        font-size: 14px;
+        padding: 0.5rem; /* Ajusta el padding para pantallas más pequeñas */
     }
 }
 

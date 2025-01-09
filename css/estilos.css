@@ -336,16 +336,15 @@ main {
 *********************************************************************************** FOOTER *******************************************************************************
 *************************************************************************************************************************************************************************/
 footer {
-    width: 100vw; /* Ajusta el ancho del footer al ancho de la pantalla */
-    margin-left: calc(50% - 50vw); /* Ajusta la posición del footer para que se vea centrado */
-    background-color: #4e93dd;
+    width: 100vw;
+    margin-left: calc(50% - 50vw); 
     color: #fff;
     text-align: center;
     padding: 1rem;
     color: rgb(0, 0, 0);
     text-align: center;
-    position: relative; /* Agrega esta propiedad para que el footer se posicione correctamente */
-    z-index: 1000; /* Agrega esta propiedad para que el footer se vea encima de otros elementos */
+    position: relative;
+    z-index: 1000; 
 }
 
 .social-media {

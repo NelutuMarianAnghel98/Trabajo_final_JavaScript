@@ -344,6 +344,9 @@ footer {
     margin-top: 20px;
     width: 100%;
     text-align: center;
+    height:  90px;
+    z-index: 1000;
+    width: 100%;
   }
 
 .social-media {

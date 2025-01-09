@@ -225,12 +225,12 @@ document.addEventListener("DOMContentLoaded", function () {
 *************************************************************************************************************************************************************************/
 let currentImageIndex = 0; // Índice de la imagen actual
 const images = [
-    "/images/chairs-2181960_1280.jpg",
-    "/images/desk-593327_1280.jpg",
-    "/images/teamwork-3213924_1280.jpg",
-    "/images/woman-4702060_1280.jpg",
-    "/images/office-620822_1280.jpg",
-    "/images/telework-6795505_1280.jpg",
+    "../images/chairs-2181960_1280.jpg",
+    "../images/desk-593327_1280.jpg",
+    "../images/teamwork-3213924_1280.jpg",
+    "../images/woman-4702060_1280.jpg",
+    "../images/office-620822_1280.jpg",
+    "../images/telework-6795505_1280.jpg",
 ];
 
 function openModal(imageSrc) {

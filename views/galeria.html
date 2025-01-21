@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galería</title>
     <link rel="stylesheet" href="./../css/estilos.css">
-
-
 </head>
 
 <body>
@@ -26,8 +24,7 @@
     <main>
         <!-- Sección de galería -->
         <section>
-            <h2 class="titulo">Nuestra Galería:</h2>
-            <div class="app"></div>
+            <h2>Nuestra Galería:</h2>
             <article class="card">
                 <img src="../images/chairs-2181960_1280.jpg" alt="img1" class="card-img" onclick="openModal('../images/chairs-2181960_1280.jpg')">
                 <img src="../images/desk-593327_1280.jpg" alt="img2" class="card-img" onclick="openModal('../images/desk-593327_1280.jpg')">
@@ -37,14 +34,14 @@
                 <img src="../images/telework-6795505_1280.jpg" alt="img6" class="card-img" onclick="openModal('../images/telework-6795505_1280.jpg')">
             </article>
         </section>
-    <div id="windows" class="window-modal hidden">
-    <span class="btn" onclick="closeModal()">Cerrar</span>
-    <div class="modal-content">
-        <button class="btn" id="prevBtn" onclick="changeImage(-1)">Anterior</button>
-        <img id="windowImg" class="window-img" src="" alt="Imagen ampliada">
-        <button class="btn" id="nextBtn" onclick="changeImage(1)">Siguiente</button>
-    </div>
-</div>
+        <div id="windows" class="window-modal hidden">
+            <button class="close-btn" onclick="closeModal()">Cerrar</button>
+            <div class="modal-content">
+                <button class="btn" id="prevBtn" onclick="changeImage(-1)">Anterior</button>
+                <img id="windowImg" class="window-img" src="" alt="Imagen ampliada">
+                <button class="btn" id="nextBtn" onclick="changeImage(1)">Siguiente</button>
+            </div>
+        </div>
     </main>
     <footer>
         <p>&copy; 2024 TechNova Solutions S.L. <br> Todos los derechos reservados. <br>Dirección: Calle Ficticia, 123, 28000 Madrid, España.</p>

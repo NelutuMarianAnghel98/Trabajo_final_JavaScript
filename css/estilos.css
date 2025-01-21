@@ -23,10 +23,10 @@ body {
     justify-content: space-between;
     background-image: url(../images/empresa.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    background-position: center;
+    background-attachment: scroll; /* Cambia esta propiedad a scroll */
     min-height: 100vh;
 }
-
 header {
     display: flex;
     justify-content: space-evenly;
